@@ -1,4 +1,4 @@
-import { Rocket, Facebook, Twitter, Instagram, Youtube, Heart } from "lucide-react";
+import { Rocket, Heart } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -22,10 +22,10 @@ export default function Footer() {
               Empowering the next generation of innovators with playful, educational electronics and STEM kits.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-[#2563EB] hover:text-white transition-colors"><Facebook className="h-4 w-4" /></a>
+             {/*<a href="#" className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-[#2563EB] hover:text-white transition-colors"><Facebook className="h-4 w-4" /></a>
               <a href="#" className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-[#F97316] hover:text-white transition-colors"><Instagram className="h-4 w-4" /></a>
               <a href="#" className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-[#2563EB] hover:text-white transition-colors"><Youtube className="h-4 w-4" /></a>
-            </div>
+            */}</div>
           </div>
 
           <div>

@@ -2,7 +2,7 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Star, Cpu, Zap, Beaker, Brain, Sparkles, ChevronRight, PlayCircle, ShieldCheck, Mail, CheckCircle2, ShoppingCart, Rocket } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
